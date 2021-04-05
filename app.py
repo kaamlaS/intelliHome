@@ -6,7 +6,7 @@ from bson.json_util import dumps
 app = Flask(__name__)
  
 client = MongoClient("")
-db = client['kaamla']
+db = client['']
 HA = db['homeauto']
  
 @app.route('/AddDevice')
