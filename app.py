@@ -5,7 +5,7 @@ from bson.json_util import dumps
  
 app = Flask(__name__)
  
-client = MongoClient("mongodb+srv://kaamla:kaamla123@cluster0-zsulb.mongodb.net/test?retryWrites=true&w=majority")
+client = MongoClient("")
 db = client['kaamla']
 HA = db['homeauto']
  
